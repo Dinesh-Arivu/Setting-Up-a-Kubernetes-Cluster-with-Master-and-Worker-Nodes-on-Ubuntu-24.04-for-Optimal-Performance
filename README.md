@@ -45,7 +45,7 @@ We’ll ensure each step is clear and detailed, making it easy for anyone to fol
 
 ---
 
-## 🐳 Step 2: Install and Configure Docker & Kubernetes
+## 🐳 Step 2: Install and Configure Docker & Kubernetes On Both Master & Worker Nodes
 
 ### Connect to Instances:
 ```bash
@@ -119,7 +119,7 @@ sudo apt install -y kubeadm=1.28.1-1.1 kubelet=1.28.1-1.1 kubectl=1.28.1-1.1
 
 ---
 
-## 🏗️ Step 3: Initialize Master Node
+## 🏗️ Step 3: Initialize Cluster On Master Node Only
 
 Initialize Cluster:
 
@@ -143,7 +143,7 @@ kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 
 ---
 
-## 🔗 Step 4: Add Worker Nodes
+## 🔗 Step 4: Add Jion command Worker Node Only
 
 On each Worker Node:
 
