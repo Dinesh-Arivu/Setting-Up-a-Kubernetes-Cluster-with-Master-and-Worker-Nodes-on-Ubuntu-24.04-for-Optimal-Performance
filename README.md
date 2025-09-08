@@ -152,10 +152,11 @@ sudo kubeadm join <master-ip>:6443 --token <token> \
   --discovery-token-ca-cert-hash sha256:<hash>
 ```
 
-Verify cluster:
+## 🔗 Step 5: Verify cluster On Master Node
 
 ```bash
 kubectl get nodes
+kubectl get pods -n kube-system
 ```
 
 ---
