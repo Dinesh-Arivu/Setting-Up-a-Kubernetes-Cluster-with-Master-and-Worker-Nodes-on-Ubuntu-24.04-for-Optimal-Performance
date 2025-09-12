@@ -6,6 +6,9 @@ Kubernetes is a powerful open-source platform designed to automate the deploymen
 In this comprehensive guide, we’ll explore how to set up a **Kubernetes cluster** using three nodes, leveraging the flexibility and scalability of **Amazon EC2 instances**.  
 We’ll ensure each step is clear and detailed, making it easy for anyone to follow along.
 
+## 📌 Architecture Diagram
+<img width="1024" height="698" alt="kubernetes architecture" src="https://github.com/user-attachments/assets/4c989840-a982-4547-bd5c-9f63b4f60064" />
+
 ---
 
 ## ⚙️ What You Will Need
@@ -186,6 +189,6 @@ kubectl get pods -n kube-system
 
 ---
 
-<img width="1024" height="698" alt="kubernetes architecture" src="https://github.com/user-attachments/assets/4c989840-a982-4547-bd5c-9f63b4f60064" />
+
 
 
