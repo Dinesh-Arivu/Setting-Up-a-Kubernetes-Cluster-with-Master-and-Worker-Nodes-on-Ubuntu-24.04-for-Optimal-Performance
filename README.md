@@ -186,4 +186,6 @@ kubectl get pods -n kube-system
 
 ---
 
+<img width="1024" height="698" alt="kubernetes architecture" src="https://github.com/user-attachments/assets/4c989840-a982-4547-bd5c-9f63b4f60064" />
+
 
